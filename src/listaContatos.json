@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "nome": "João Silva",
+    "telefone": "(11)91234-5678"
+  },
+  {
+    "id": 2,
+    "nome": "Maria Oliveira",
+    "telefone": "(21)98765-4321"
+  },
+  {
+    "id": 3,
+    "nome": "Carlos Souza",
+    "telefone": "(31)99876-5432"
+  },
+  {
+    "id": 4,
+    "nome": "Ana Pereira",
+    "telefone": "(41)91234-5678"
+  },
+  {
+    "id": 5,
+    "nome": "Pedro Santos",
+    "telefone": "(51)98765-4321"
+  },
+  {
+    "id": 6,
+    "nome": "Lucas Lima",
+    "telefone": "(61)99876-5432"
+  },
+  {
+    "id": 7,
+    "nome": "Mariana Costa",
+    "telefone": "(71)91234-5678"
+  },
+  {
+    "id": 8,
+    "nome": "Rafael Almeida",
+    "telefone": "(81)98765-4321"
+  },
+  {
+    "id": 9,
+    "nome": "Fernanda Rodrigues",
+    "telefone": "(91)99876-5432"
+  },
+  {
+    "id": 10,
+    "nome": "Gabriel Ferreira",
+    "telefone": "(31)91234-5678"
+  }
+]
