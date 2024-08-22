@@ -2,12 +2,18 @@
 
 import Pessoa from '@/components/pessoa'
 import Modal from '../modal'
-import lista from '@/listaContatos.json'
 import { useState } from 'react'
+
+export interface Contato {
+	id: number
+	nome: string
+	telefone: string
+}
 
 const Contatos = () => {
 	const [isOpen, setIsOpen] = useState(false)
 	const [busca, setBusca] = useState('')
+	const [lista, setLista] = useState([] as Contato[])
 	return (
 		<div className='flex flex-col justify-center items-center'>
 			<div className='w-3/4 sm:w-1/2 bg-zinc-100 rounded-lg p-4 my-6 shadow-xl'>
@@ -39,7 +45,7 @@ const Contatos = () => {
 						))}
 				</div>
 			</div>
-			{isOpen && <Modal />}
+			{isOpen && <Modal setLista={setLista} setIsOpen={setIsOpen} />}
 		</div>
 	)
 }

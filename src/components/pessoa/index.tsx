@@ -1,4 +1,9 @@
-const Pessoa = ({ nome, telefone }) => {
+interface PessoaProps {
+	nome: string
+	telefone: string
+}
+
+const Pessoa = ({ nome, telefone }: PessoaProps) => {
 	return (
 		<div className='mb-4 bg-zinc-300 rounded-md p-2 shadow-md shadow-zinc-400'>
 			<p>
